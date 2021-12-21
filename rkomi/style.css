@@ -1,0 +1,51 @@
+body{
+    color:rgb(64, 27, 110);
+    background-color: rgb(64, 27, 110);
+}
+body.dark{
+    color:rgb(64, 27, 110);
+    background-color: rgb(64, 27, 110);
+}
+
+#song{
+	color: rgb(161, 33, 161);
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+#title{
+    color: rgb(161, 33, 161);
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+#titolo{
+    color: rgb(161, 33, 161);
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: right;
+    backdrop-filter: blur(10px);
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column ;
+}
+.col-6{
+    flex:0 1 50%;
+     max-width: 50%;
+}
+.col-12{
+    flex: 0 1 100%;
+    max-width: 100%;
+}
+
+.table{
+    align-content: center;
+    width: 100%;
+}
+#testo{
+    color: rgb(161, 33, 161);
+}

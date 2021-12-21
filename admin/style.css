@@ -1,0 +1,36 @@
+#titolo{
+    text-align: center;
+    color:rgba(39, 107, 128, 0.4);
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.overlay{
+   
+    position: fixed;
+    background-color: rgba(0,0,0, 0.3);
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+
+}
+.modal{
+    position: fixed;
+    inset: 10%;
+    display: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding:2rem;
+    background-color:#fff;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+input{
+    padding:.5rem;
+    margin-bottom:.5rem;
+    width:100%;
+}
